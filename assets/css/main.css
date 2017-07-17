@@ -82,14 +82,14 @@
 			-ms-transform: translateX(0);
 			transform: translateX(0);
             width: 50%;
-			max-width: 100%; /*good = 75%*/
-			position: relative;
+			/*max-width: 100%; /*good = 75%*/
+			position: inline-block;
 			opacity: 1.0;
 		}
 
 			.exp-gallery article .image {
 				margin: 0;
-				display: inline-block;
+				display: float;
                
 			}
 
@@ -1746,6 +1746,8 @@ cursor:pointer;
 			}
 
 		}
+
+/*Masonry*/
 
 /* Gallery */
 
