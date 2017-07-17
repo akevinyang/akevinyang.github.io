@@ -1346,7 +1346,7 @@ cursor:pointer;
 		-webkit-flex-wrap: wrap;
 		-ms-flex-wrap: wrap;
 		flex-wrap: wrap;
-		width: 45em;
+		width: 45em; /*75em looks better*/
 		max-width: 100%;
 		margin: 0 auto 2em auto;
 	}
@@ -1360,7 +1360,7 @@ cursor:pointer;
 			-webkit-transform: translateX(0);
 			-ms-transform: translateX(0);
 			transform: translateX(0);
-			width: 50%;
+			width: 50%; /*good = 75%*/
 			position: relative;
 			opacity: 1.0;
 		}
