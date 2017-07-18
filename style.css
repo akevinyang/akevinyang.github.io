@@ -1,0 +1,33 @@
+h1 {
+color: #ded;
+}
+
+/*div :hover {
+opacity: 0.5;
+     }*/
+#box1{
+position:relative;
+}
+
+#box1:before {
+content:'';
+position:absolute;
+top:0;
+left:0;
+right:0;
+bottom:0;
+background:black;
+opacity:0;
+        z-index:0;
+
+}
+
+#box1:hover:before {
+opacity:.6;   
+transition: all 0.5s;
+}
+
+#box1 > *{
+position:relative;
+         z-index:1;
+}

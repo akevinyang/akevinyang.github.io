@@ -1,0 +1,78 @@
+    
+<!doctype html>
+<html>
+<head>
+<link rel="stylesheet" href="style.css"/>
+<link rel="stylesheet" href="dist/css/justifiedGallery.css" />
+</head>
+<body>
+<!--<div id="box1">
+<img src="image.jpg"/>
+</div>-->
+
+<div id="mygallery">
+<a href="#">
+<img alt="Title 1" src="images/thumbs/Blackham.jpg"/>
+</a>
+<a href="#">
+<img alt="Title 2" src="images/thumbs/Ensemble1.jpg"/>
+</a>
+<a href="#">
+<img alt="Title 2" src="images/thumbs/Toss.jpg"/>
+</a>
+<a href="#">
+<img alt="Title 2" src="images/thumbs/Contrast.jpg"/>
+</a>
+<a href="#">
+<img alt="Title 2" src="images/thumbs/Ouchii.jpg"/>
+</a>
+<a href="#">
+<img alt="Title 2" src="images/thumbs/Dog.jpg"/>
+</a>
+<a href="#">
+<img alt="Title 2" src="images/thumbs/lomo.jpg"/>
+</a>
+<a>
+    <img alt="Title 1" src="images/thumbs/Blackham.jpg"/>
+</a>
+<a href="#">
+<img alt="Title 2" src="images/thumbs/Ensemble1.jpg"/>
+</a>
+<a href="#">
+<img alt="Title 2" src="images/thumbs/Toss.jpg"/>
+</a>
+<a href="#">
+<img alt="Title 2" src="images/thumbs/Contrast.jpg"/>
+</a>
+<a href="#">
+<img alt="Title 2" src="images/thumbs/Ouchii.jpg"/>
+</a>
+<a href="#">
+<img alt="Title 2" src="images/thumbs/Dog.jpg"/>
+</a>
+<a href="#">
+<img alt="Title 2" src="images/thumbs/lomo.jpg"/>
+</a>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+<script src="dist/js/jquery.justifiedGallery.js"></script>
+<!--<script>$("#mygallery").justifiedGallery();</script>-->
+<script>
+
+        $('#mygallery').justifiedGallery({
+            rowHeight:200,
+            margins: 3,
+            sizeRangeSuffixes: {
+                'lt100': '_t',
+                'lt240': '_m',
+                'lt320': '_n',
+                'lt500': '',
+                'lt640': '_z',
+                'lt1024': '_b'
+            }
+        });
+    
+</script>
+</body>
+</html>
