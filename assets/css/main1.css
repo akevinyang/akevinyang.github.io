@@ -2131,7 +2131,7 @@
 	}
 /*Portrait*/
 #three {
-    background: url("images/overlay.png"), url("../../images/Portraits/Fulls/depth.jpg");
+    background: url("images/overlay.png"), url("../../images/Portraits/Fulls/floutist.jpg");
     background-size: 256px 256px, cover;
     background-attachment: fixed, fixed;
     background-position: top left, bottom center;
@@ -2144,6 +2144,12 @@
     background-attachment: fixed, fixed;
     background-position: top left, bottom center;
     background-repeat: repeat, no-repeat;
+}
+#five {
+    background: url("images/overlay.png"), url("../../images/portraits/Fulls/soul.jpg");
+   background-size: 256px 256px, cover;
+		background-attachment: fixed, fixed;
+		background-position: top left, center center;
 }
     
 /* Contact */
