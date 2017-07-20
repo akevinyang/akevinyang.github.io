@@ -17,10 +17,7 @@
                 <h1><a href = "akevinyangphotography.html">AKevinYang Photography</a></h1>
 				<nav>
 					<ul>
-<!--						<li><a href="#intro">Intro</a></li>-->
-	<!--					<li><a href="#one">What I Do</a></li>
-						<li><a href="#two">Who I Am</a></li>
-						<li><a href="#work">My Work</a></li>-->
+
                         <li><a href="Portraits.html">Portraiture</a></li>
                         <li><a href="Stories.html">Stories</a></li>
                         <li><a href="Timeless.html">Timeless</a></li>
@@ -35,7 +32,18 @@
 
 <!-- Gallery  -->
     <div id = "mygallery">
-        <div class="test-gallery" style="float: none">
+         <a href="Portraits.html">
+            <img alt="Portraits" src="images/Portraits/Thumbs/Emily.jpg"/>
+            </a>
+         <a href="Stories.html">
+            <img alt="Stories" src="images/Stories/Thumbs/Ensemble.jpg"/>
+            </a>
+         <a href="Timeless.html">
+            <img alt="Timeless" src="images/Timeless/Thumbs/Alleys.jpg"/>
+            </a>
+        
+            
+        <!--<div class="test-gallery" style="float: none">
             <a href="Portraits.html" class="image fit"><img src="images/Portraits/Thumbs/Emily.jpg"alt=""/></a>
                  <div class="test-gallery-text">
                      <a href="Portraits.html"> <h3><font size = "+2">Portraits</font></h3></a>
@@ -55,7 +63,7 @@
                     <a href="Timeless.html"> <h3><font size = "+2">Timeless</font></h3></a>
                 </div>   
         </div>
-
+-->
     </div>
                                       
 </section>
@@ -96,7 +104,18 @@
 <!--<script>$("#mygallery").justifiedGallery();</script>-->
 <script>
 
-        
+        $('#mygallery').justifiedGallery({
+            rowHeight:550,
+            margins: 3,
+            sizeRangeSuffixes: {
+                'lt100': '_t',
+                'lt240': '_m',
+                'lt320': '_n',
+                'lt500': '',
+                'lt640': '_z',
+                'lt1024': '_b'
+            }
+        });
 </script>
 	</body>
 </html>
