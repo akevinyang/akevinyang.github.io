@@ -1,0 +1,17 @@
+/*Experimental Headers*/
+
+.one{
+    color: red;
+    text-align: center;
+    font-style: italic;
+    background-color: #000;
+}
+h1{
+    color:aqua;
+    text-align: center;
+}
+#gallery{
+    text-align: center;
+    font-style: oblique;
+    color: burlywood;
+}
